@@ -1,5 +1,4 @@
 
-
 # Section 3: Understanding Variables
 ----------------------------------------
 
@@ -23,7 +22,7 @@ def aBunchOfVariables():
     x = 4 # a Variable
     y = 10 # another variable
     z = 99 # also a variable
-    aWord = 'Fuck the Police' # a variable holding a bunch of letters
+    aWord = 'Guten Tag' # a variable holding a bunch of letters
     product = x * y * z # more variables
     print(aWord)
     print(product)

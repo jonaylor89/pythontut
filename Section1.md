@@ -8,10 +8,10 @@ you're at then you need to reread the section.
 # Section 1: Functions, the building blocks of programming
 --------------------------------------------------------------
 
-A function is a container code
+A function is a container of code
 Most programs written in the real world are just
-Collections of function arranged in a particular manner
-Like building blocks
+collections of function arranged in a particular manner
+like building blocks
 
 This function just prints out Hello World when 'called'
 
@@ -26,10 +26,9 @@ And executing the function looks like...
 FirstFunction()
 ```
 
-
-Function can also be given inputs
+Functions can also be given inputs.
 This function will get two numbers as inputs
-After adding the numbers together it prints the sum
+after adding the numbers together it prints the sum
 
 ```python
 def add2numbers(a, b):
@@ -37,8 +36,8 @@ def add2numbers(a, b):
     print(NumberSum)
 ```
 
-Since this function takes inputs (a, b)
-When calling it, you must tell the function
+Since this function takes two input 'a' and 'b',
+when calling it, you must tell the function
 what a and b are like so
 
 ```python
@@ -48,7 +47,7 @@ add2numbers(10, 35) # I can use whatever numbers I want
 
 
 Notice that I can name functions whatever I want
-(Although it's nice to name function easy to remember things
+(Although it's nice to name function easy to remember things)
 
 Also notice that I can name the inputs whatever I want
 (In add2numbers it's a and b but in multiplyNumbers it's num1 and num2
@@ -64,8 +63,8 @@ def multiplyNumbers(num1, num2):
 -------------------------
 
 This section is meant to just introduce you to the basic of functions
-Function are super fucking cool and can do crazy things but for now
-You just need to now that they will hold blocks of code
+Function are super cool and can do crazy things but for now
+You just need to know that they will hold blocks of code
 (The next section will show you what I mean by 'code')
 
 # Challenges!

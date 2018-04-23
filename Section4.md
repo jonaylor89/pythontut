@@ -1,56 +1,30 @@
 
-Section 4: List (Arrays in some languages)
+# Section 4: List (Arrays in some languages)
 ------------------------------------------
 
-Lists are boxes that hold multiple things rather than one thing
-To access the things in the list you would use a for loop.
-The syntax looks just the same as when you use a for loop with range
-but replace range with the list.
+Lists are boxes that hold multiple things rather than one thing.
+They are huge variables that generally hold values that are related to each other
+but technically they don't have to be.
 
 ```python
 def CoolKidLists():
     # List are surrounded by brackets "[]"
     myList = ['My', 'List', 'Elements'] # list with 3 elements
 
-    print(myList[0]) # the First element is the zeroth
+    print(myList[0]) # the First element is the zeroth index
     print(myList[1])
     print(myList[2])
 
 CoolKidLists()
-# Prints
+# Prints:
 # My
 # Lists
 # Elements
 ```
 
-Lists make things really easy to manipulate a lot of numbers
-at once. Instead of going through every item manually through
-the list, programmers use something called a 'for' loop. 'for' loops
-make it super easy to change every item in the list at once.
+Lists can hold any data type (i.e. integers (1, 2, 3, etc.), floating point numbers (1.123, 2.45, 12.67, etc.), characters (a, b, c, etc.)) They are also order which means [1, 2, 3] is different from [3, 2, 1].
 
-```python
-def ManipulatingAList(someList): # Notice that lists can also be inputs
-    for item in someList:
-        item = item + 1 # Add 1 to ever element in the list
-
-    for element in someList: #
-        print(element)
-
-ManipulatingAList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-# Will print
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
-# 11
-```
-
-Adding and taking away from lists
+Adding and taking away things from lists
 
 ```python
 def ElListo():
@@ -90,7 +64,5 @@ yourself or watch other people (e.g. Coding Train with David Shiffman).
 
 # Challenges
 ---------------------------
-1. Write a function that takes one list input and prints every item in the list
-2. Write a function that takes one list input and multiplies 5 to every
-element in the list than prints the list out.
-3. Write a function that adds one to every element that is less than 10
+1. Write a function that takes one list input and prints the first element in the lists
+2. Write a function that takes two list inputs and prints the product of their first elements

@@ -1,12 +1,13 @@
 
-
 # Section 5: Loops, doing the same thing a million times
 ---------------------------------------------------------
 
 When programming, a lot of the time you're gonna
 want to do something a bunch of times. For example
 if you wanted to print the numbers 1 - 100 on the screen.
-The solution to this is to make a loop. The most common
+The solution to this is to make a loop.
+
+The most common
 loop is a 'for' loop which is in the next function.
 
 ```python
@@ -18,7 +19,7 @@ printingNums() # I already said this would print 1 through 100
 ```
 
 The syntax of for loops looks a lot like English
-making it pretty easy to understand. For every 'x'
+making it pretty easy to understand. For every element 'x'
 in range 1, 101 ('range' going to 1 less than the limit
 you give it) print x
 
@@ -39,8 +40,24 @@ def yourNumber(myNumber):
         if num == myNumber: # Oh yes, logic and loops. A vicious combination
             print('Your number is between 1 and 10')
 
-yourNumber(2) # prints myNumber is between 1 and 10
+yourNumber(2) # prints 'myNumber is between 1 and 10'
 yourNumber(15) # prints nothing
+```
+
+
+For loops can also be used with list. If you wanted to go through every element in a list you would use a for loop.
+
+```python
+def print_every_element(myList):
+  for element in myList:
+    print(element)
+
+print_every_element(["a", "b", "c", "d"])
+# Prints:
+# a  
+# b
+# c
+# d
 ```
 
 There is another kind of loop called a 'while' loop.
@@ -50,7 +67,6 @@ While loops go while a certain logical condition is true
 Most situations won't require a while loop which is why for loops
 are much more popular. The main use of while loops now would be to
 purposely make an infinite loop (A loop that never stops). (while True:)
-Infinite loops get used a loop in network programming.
 
 ```python
 def goForever(startingNumber):
@@ -59,13 +75,13 @@ def goForever(startingNumber):
         startingNumber = startingNumber + 1
 
 # goForever(5) <= if you run this you will print numbers out forever
-# (Or until you cancel your program)
+# (Or until you cancel your program or run out of memory in your computer)
 ```
 
 # END of Section 5: loops
 
 Loops are another one of those things that
-are super useful but can also get fucking crazy.
+are super useful but can also get crazy.
 In later sections I'm going to show you some crazier
 things for loops can do.
 
