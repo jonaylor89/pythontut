@@ -24,14 +24,14 @@ class Student:
 	self.numID = numID
 ```
 
-The first line ```python class``` is the start for all the classes.
+The first line ```class``` is the start for all the classes.
 
-Followed by the name of the class and a ```python :```
+Followed by the name of the class and a ```:```
 
-Then we have the ```python ___init__``` method.
+Then we have the ```___init__``` method.
 All it does is initialize our variables (Not really but for the sake of simplicity we will assume it's true)
 
-Then we have ```python self``` followed by whatever variables we need.
+Then we have ```self``` followed by whatever variables we need.
 
 To be continued...
 
