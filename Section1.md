@@ -77,3 +77,31 @@ You just need to know that they will hold blocks of code
 
 3. Write a function that take two inputs and prints them quotient
 (Division)
+
+
+
+Solutions:
+    - Please go back up and attempt the challenge honstly.
+    - If you still have trouble go to the tutorial
+
+1.
+```python
+def function_(num):
+    print(num)
+```
+
+2. 
+
+```python
+def diff_(num1, num2):
+    diff_ = num1 - num2
+    print(diff_)
+```
+
+3.
+
+```python
+def div_(num1, num2):
+    div_ = num1/num2
+    print(div_)
+```
